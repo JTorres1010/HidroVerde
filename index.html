@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HidroVerde - Pico Centrales Hidroeléctricas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #005f99;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            display: none;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #007acc;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        /* Estilos del contenedor de video */
+        .video-container {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <script>
+        function mostrarSeccion(seccionId) {
+            const secciones = document.querySelectorAll("section");
+            secciones.forEach(seccion => {
+                seccion.style.display = "none";
+            });
+            document.getElementById(seccionId).style.display = "block";
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <img src="Imagen de WhatsApp 2024-10-25 a las 15.35.15_56f9038c.jpg" alt="Logo de HidroVerde" class="logo">
+    <h1>HidroVerde</h1>
+    <p>“Energía rápida, confiable y hecha a la medida, optimizando tu tiempo sin complicaciones."</p>
+</header>
+
+<!-- Contenedor de video de YouTube -->
+<div class="video-container">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/kz45YtMYkto?si=d1AXcil4oEJ93w63&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<nav>
+    <a onclick="mostrarSeccion('acerca')">Acerca de Nosotros</a>
+    <a onclick="mostrarSeccion('mercado')">A Quién Va Dirigido</a>
+    <a onclick="mostrarSeccion('marca')">Marca</a>
+    <a onclick="mostrarSeccion('funciones')">Funciones</a>
+    <a onclick="mostrarSeccion('blog')">Blog</a>
+    <a onclick="mostrarSeccion('contacto')">Contáctenos</a>
+</nav>
+
+<div class="container">
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <p>Proporcionamos un servicio de conveniencia y rapidez que permite a nuestros clientes optimizar su tiempo y disfrutar de productos de calidad sin complicaciones. Ayudamos a resolver el problema de la falta de tiempo, ofreciendo una solución rápida y eficiente que se adapta a su estilo de vida acelerado.</p>
+        
+        <h3>Propuesta de Valor</h3>
+        <ul>
+            <li><strong>¿Qué valor proporcionamos a nuestros clientes?</strong> Proporcionamos un servicio de conveniencia y rapidez que les permite optimizar su tiempo y disfrutar de productos de calidad sin complicaciones.</li>
+            <li><strong>¿Qué problema de nuestros clientes ayudamos a solucionar?</strong> Ayudamos a resolver el problema de la falta de tiempo, ofreciendo una solución rápida y eficiente que se adapta a su estilo de vida acelerado.</li>
+            <li><strong>¿Qué necesidades de los clientes satisfacemos?</strong> Satisfacemos la necesidad de conveniencia, calidad y rapidez en la obtención de productos o servicios.</li>
+            <li><strong>¿Qué paquete de productos o servicios ofrecemos a cada segmento de mercado?</strong> Ofrecemos un servicio central, con la opción de personalizarlo según las necesidades de cada cliente, desde un servicio estándar hasta uno premium con características adicionales.</li>
+        </ul>
+
+        <h3>Historia de Relación con los Clientes</h3>
+        <p><strong>Marta, 35 años, propietaria de una pequeña fábrica</strong></p>
+        <p>Marta es una emprendedora que dirige una pequeña fábrica de muebles en su comunidad. Durante años, ha luchado con los altos costos de electricidad y la inestabilidad de la red local, lo que afectaba sus ganancias y capacidad de crecimiento.</p>
+        <p>Un día, un colega le habló sobre HidroVerde, una empresa que instala pico centrales hidroeléctricas. Al principio, Marta tenía dudas, pero decidió investigar más. Después de hablar con el equipo de HidroVerde, se sintió optimista. Ellos le explicaron cómo podían instalar una pico central cerca de su fábrica, aprovechando el río que pasaba por su propiedad.</p>
+        <p>El equipo de HidroVerde no solo se centró en venderle un servicio; se tomaron el tiempo para entender sus necesidades. Realizaron un análisis de su consumo energético y le mostraron cómo la pico central podría reducir sus costos significativamente. También le ofrecieron un sistema de monitoreo en tiempo real.</p>
+        <p>Cuando Marta decidió avanzar con la instalación, HidroVerde la acompañó en cada paso del proceso. Desde la construcción hasta la puesta en marcha, el equipo fue accesible y resolvió cualquier duda. Una vez en funcionamiento, Marta redujo sus costos de energía, pudo ampliar su producción y contrató a más empleados.</p>
+        <p>Con el mantenimiento y soporte continuo que ofrece HidroVerde, Marta se siente segura en su negocio. Recomienda HidroVerde a otros emprendedores, considerándolos un socio confiable que transforma la manera de hacer negocios.</p>
+    </section>
+
+    <section id="mercado">
+        <h2>A Quién Va Dirigido</h2>
+        <p><strong>Segmentos de mercado:</strong></p>
+        <ul>
+            <li>Comunidades rurales aisladas: Lugares donde la red eléctrica no llega o es limitada.</li>
+            <li>Agricultores y cooperativas agrícolas: Necesitan energía para bombas de agua, iluminación o equipos en áreas donde el acceso a electricidad es difícil o costoso.</li>
+            <li>Pequeñas empresas y fábricas en zonas rurales: Industrias locales que necesitan energía fiable y constante para operar sus instalaciones.</li>
+            <li>Gobiernos locales: Ayuntamientos y gobiernos locales interesados en proyectos sostenibles para pequeñas comunidades.</li>
+            <li>Empresas de energía renovable: Empresas que buscan diversificar sus fuentes de energía con soluciones locales.</li>
+            <li>Residentes particulares en zonas remotas: Familias que viven fuera de la red y requieren energía para sus hogares.</li>
+            <li>Empresas constructoras: Asociadas con proyectos de construcción en zonas rurales o de difícil acceso donde se necesite suministro energético.</li>
+        </ul>
+        <p><strong>Cliente ejemplo:</strong> Pedro González, agricultor de 45 años en una zona rural de Antioquia, Colombia. Con educación secundaria completa, un ingreso anual de aproximadamente 40 millones de pesos y un enfoque en la sostenibilidad, Pedro busca soluciones energéticas asequibles para su finca de café.</p>
+    </section>
+
+    <section id="marca">
+        <h2>Marca</h2>
+        <li>El diseño de nuestro logotipo refleja la integración armoniosa de la naturaleza y la energía. Representa nuestra conexión con el agua como fuente vital y sustentable, mientras que los colores elegidos transmiten confianza, estabilidad y un compromiso amigable con el medio ambiente. Nuestra identidad busca inspirar cercanía y fiabilidad, demostrando que el aprovechamiento de los recursos naturales puede ser accesible, seguro y sostenible.</li>
+        <img src="Imagen de WhatsApp 2024-10-25 a las 15.35.15_56f9038c.jpg" width="600">
+    </section>
+
+    <section id="funciones">
+        <h2>Funciones</h2>
+        <h3>Funciones del Producto/Servicio</h3>
+        <ul>
+        
+                <li>Diseño, instalación y cuidado continuo de nuestras pico centrales hidroeléctricas: Nos ocupamos de cada etapa del proyecto para que puedas confiar en que tendrás energía limpia y segura, desde el diseño hecho a tu medida hasta el mantenimiento regular.</li>
+            <li>Soluciones personalizadas: Sabemos que cada comunidad y negocio es único, por eso adaptamos cada sistema a tus necesidades específicas, asegurándonos de que sea eficiente y asequible.</li>
+                <li>Acompañamiento técnico constante: Estamos aquí para ti después de la instalación, listos para responder tus dudas y resolver cualquier problema para que siempre tengas energía cuando la necesites.</li>
+                <li>Funcionamiento fácil y automático: Nuestras centrales están pensadas para ser prácticas y de bajo mantenimiento, para que puedas dedicarte a lo que realmente importa sin preocuparte por el suministro energético.</li>
+                <h3>Lo que Nos Hace Diferentes</h3>
+                <li>Soluciones a tu medida y escalables: No somos una opción genérica; nos especializamos en crear soluciones energéticas que realmente se adapten a ti, a tu comunidad o a tu empresa.</li>
+                <li>Compromiso con el planeta: Nos importa tanto el medio ambiente como a ti, por eso nuestras soluciones aprovechan los recursos de manera responsable y ayudan a preservar el entorno local.</li>
+                <li>Servicio rápido y confiable: Nos enfocamos en hacer las cosas bien y en el menor tiempo posible, para que tú tengas energía sin complicaciones.</li>
+                <li>Soporte cercano y accesible: Queremos ser una opción confiable y cercana para cada uno de nuestros clientes, brindando un acompañamiento real que te haga sentir respaldado en todo momento.</li>
+                <h3>Aplicaciones</h3>
+                <li>Energía para comunidades rurales: Llevamos energía donde más se necesita, a las comunidades rurales que buscan mejorar su calidad de vida sin afectar su entorno natural.</li>
+                <li>Aliados de pequeñas empresas: Si tienes una pequeña empresa, nuestro sistema de pico centrales puede ayudarte a reducir costos y hacer tu operación más sostenible, cuidando el planeta mientras ahorras.</li>
+                <li>Proyectos de desarrollo y conservación: Trabajamos junto a organizaciones que buscan impulsar el desarrollo rural de una forma responsable y duradera.</li>
+                <li>Fuente de respaldo en zonas con servicio inestable: Si tu comunidad o empresa tiene problemas con el suministro de energía, nuestras soluciones proporcionan un flujo constante de electricidad, manteniéndote siempre conectado.</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <h3>Marketing Digital y Posicionamiento</h3>
+        <li>Ser una fuente confiable de información en el sector energético y atraer a clientes B2B, consolidando la marca como un proveedor confiable y experto en el suministro de energía.</li>
+        <li>Noticias de la Industria: Actualizaciones sobre políticas energéticas, innovación en generación y distribución de energía, y regulaciones gubernamentales.</li>
+        <li>Casos de Éxito: Ejemplos de clientes satisfechos (respetando confidencialidad) que destaquen beneficios de los contratos a largo plazo.</li>
+        <li>Guías y Consejos Técnicos: Contenido educativo que ayude a clientes a maximizar la eficiencia energética y entender aspectos técnicos del suministro y mantenimiento.</li>
+        <li>Procesos de Licitación y Ventajas de Subastas: Explicar los beneficios y el proceso de los acuerdos mediante licitaciones y subastas, haciendo hincapié en la transparencia y beneficios para el cliente.</li>
+        <h3>Canales de Difusión</h3>
+        <li>LinkedIn y Redes de Negocios: Artículos de blog y contenido gráfico corto que posicione la marca en el ámbito empresarial.</li>
+<li>Correo Electrónico y Boletines de Noticias: Ofrecer contenido exclusivo de análisis de mercado y nuevas oportunidades energéticas.</li>
+<li>Foros Especializados y Webinars: Participar en foros B2B y realizar webinars sobre los temas del blog, especialmente para atraer a empresas interesadas en acuerdos a largo plazo.</li>
+<img src="Lienzo Canvas.png">
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctenos</h2>
+        <p>Correo electrónico: hidro.verde11.2@gmail.com
+        </p>
+        <p>WhatsApp: +57 317 312 7504</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</div>
+
+
+</body>
+</html>
